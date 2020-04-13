@@ -1,0 +1,109 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+.header{
+  color:#fff;
+  background:#26d0c9;
+  height:90px;
+}
+header p{
+  font-size:36px;
+  padding:20px 40px;
+  float:left;
+}
+header li{
+  padding:30px 33px;
+  float:left;
+}
+
+main{
+  padding:100px 80px;
+}
+
+main h1{
+  font-size:140px;
+}
+span{
+  color:#ff4a4a;
+}
+main h2{
+  font-size:60px;
+}
+.main-a{
+    padding-top:100px;
+    height:500px;
+}
+
+.main-a h3{
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+}
+
+.main-img{
+  padding-top:50px;
+  float:left;
+  margin-right:40px;
+  padding-bottom:100px;
+}
+.main-img p{
+  font-size:24px;
+  padding-top:30px;
+}
+.contents{
+  padding-top:100px;
+
+}
+.contents h3{
+    font-size:28px;
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+}
+.a{
+  padding-top:50px;
+}
+
+input,textarea {
+  width:400px;
+  padding:20px;
+  margin-top:10px;
+  margin-bottom:30px;
+  border:2px solid #dee7ec;
+  font-size:18px;
+}
+.submit-a{
+  background:#dee7ec;
+  color:#889eab;
+}
+
+footer{
+  background:#2f5167;
+  color:#fff;
+  height:120px;
+  padding:40px;
+}
+footer p{
+  font-size:32px;
+  float:left;
+}
+footer ul{
+  float:right;
+}
+footer li{
+  padding-bottom:20px;
+}
